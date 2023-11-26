@@ -107,7 +107,6 @@ letter-spacing: 0.4px;
     line-height: 1.5;
     letter-spacing: 0.64px;
     background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
@@ -133,7 +132,6 @@ letter-spacing: 0.4px;
 
 .our-team-card {
     background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .section-header {
@@ -154,15 +152,10 @@ letter-spacing: 0.4px;
 
 /* Our portfolio */
 
-.our-portfolio p {
+.our-portfolio-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-}
-
-.our-portfolio img {
-    width: 360px;
-    height: 300px;
 }
 
 /* Footer */
@@ -182,7 +175,7 @@ letter-spacing: 0.4px;
     text-transform: uppercase;
 }
 
-.footer-logo span {
+.accent {
     color: var(--CLOUD, #F4F4FD);
     font-size: 18px;
     font-style: normal;
